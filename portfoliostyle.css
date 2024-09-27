@@ -1,0 +1,70 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+.container {
+  padding: 90px;
+}
+.Section-one {
+  background-color: black;
+  color: white;
+  padding: 20px;
+}
+.Section-one__name {
+  font-size: 80px;
+}
+.Section-one__role {
+  font-size: 30px;
+  margin-top: 20px;
+}
+.Section-one__contact {
+  background-color: orangered;
+  color: white;
+  padding: 5px;
+  text-decoration: none;
+}
+.Section-two {
+  margin-top: 20px;
+}
+.Section-three {
+  margin-top: 20px;
+  background-color: #6462FD;
+  display: inline-block;
+  color: black;
+  padding: 20px;
+  height: 200px;
+  border-radius: 10px;
+  vertical-align: top;
+}
+.Section-four {
+  margin-top: 20px;
+  background-color: #fe7517;
+  color: black;
+  padding: 20px;
+  height: 200px;
+  display: inline-block;
+  vertical-align: top;
+  border-radius: 10px;
+}
+.Section-two__desc,
+.Section-three__desc,
+.Section-four__desc,
+.Section-five__desc {
+  margin-top: 10px;
+}
+.Section-five {
+  background-color: black;
+  color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+.Section-five__title a {
+  color: skyblue;
+}
+.Section-three__desc,
+.Section-four__desc li {
+  list-style: none;
+}
